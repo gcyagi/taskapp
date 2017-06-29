@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taskapp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <%= image_tag "Golang.png", :size => '120x43' %>
+  <body>
+    <%= yield %>
+  </body>
+  <%= link_to "Home","/" %>
+
+</html>
